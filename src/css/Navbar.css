@@ -55,9 +55,17 @@
 }
 .right #upgrade {
   background-color: rgb(250, 204, 21);
+  transition: 0.1s;
+}
+#upgrade:hover {
+  background-color: rgb(251, 217, 82);
 }
 .right #create {
   background-color: rgb(129, 140, 248);
+  transition: 0.1s;
+}
+#create:hover{
+  background-color: rgb(109, 120, 213);
 }
 .right #library {
   color: #eee;

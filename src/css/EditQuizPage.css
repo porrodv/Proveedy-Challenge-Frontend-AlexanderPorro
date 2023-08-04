@@ -64,7 +64,7 @@ aside#preferences {
   color: var(--custom-purple);
 }
 
-#edit-quiz .left .quiz {
+.left .quiz {
   width: 100%;
 }
 .quiz .text-option {
@@ -75,11 +75,11 @@ aside#preferences {
   display: flex;
   gap: 15px;
 }
-.quiz .options a {
+#edit-quiz .quiz .options a {
   padding: 10px 5px;
   transition: all 0.1s;
 }
-.quiz .options a:hover {
+#edit-quiz .quiz .options a:hover {
   color: var(--custom-purple);
 }
 .options .uploads {
@@ -120,7 +120,7 @@ aside#preferences {
   cursor: pointer;
   transition: all 0.15s;
 }
-#generate-btn:hover {
+#edit-quiz #generate-btn:hover {
   background-color: rgb(83, 85, 214);
 }
 
@@ -168,11 +168,11 @@ aside#preferences {
 
 
 /************************* ASIDE *********************/
-.preferences-inner {
+#preferences .preferences-inner {
   display: flex;
   flex-direction: column;
 }
-.preferences-inner h6 {
+#preferences .preferences-inner h6 {
   font-weight: normal;
   font-size: 12px;
   margin-bottom: 1rem;
@@ -181,7 +181,7 @@ aside#preferences {
   gap: 5px;
   align-items: center;
 }
-.preferences-inner a {
+#preferences .preferences-inner a {
   padding: 15px 0;
   display: flex;
   gap: 10px;
@@ -189,10 +189,10 @@ aside#preferences {
   color: var(--text-gray);
   transition: 0.1s;
 }
-.preferences-inner a:hover {
+#preferences .preferences-inner a:hover {
   color: var(--custom-purple);
 }
 /* .preferences-inner a i   */
-.preferences-inner h6 i {
+#preferences .preferences-inner h6 i {
   color: #000;
 }

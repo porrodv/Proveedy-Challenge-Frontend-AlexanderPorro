@@ -1,0 +1,73 @@
+.navbar {
+  background-color: rgb(2, 1, 19);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  width: 100%;
+  padding: 0 30px;
+}
+.navbar * {
+  font-size: 13px;
+}
+
+.left .navbar-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-item {
+  padding: 15px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+.nav-item a:hover {
+  color: #f00;
+}
+
+.navbar .right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.right #upgrade,
+.right #create {
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 8px;
+}
+.right #upgrade,
+.right #create,
+.right #library {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.right #upgrade {
+  background-color: rgb(250, 204, 21);
+  color: #000;
+}
+.right #create {
+  background-color: rgb(129, 140, 248);
+}
+.right #library {
+  color: #eee;
+}
+.right #user {
+  display: grid;
+  place-content: center;
+  background-color: rgb(129, 140, 248);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+#user .user-icon {
+  font-size: 10px;
+}

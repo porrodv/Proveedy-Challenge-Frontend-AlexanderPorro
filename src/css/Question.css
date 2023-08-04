@@ -1,0 +1,43 @@
+.question {
+  border: 1px solid var(--border-gray);
+  border-radius: 8px;
+}
+.question .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+}
+.question section {
+  padding: 15px 15px 20px 15px;
+}
+.question p {
+  margin-top: 0;
+}
+.question section ul {
+  padding-left: 1.5rem;
+  list-style-type: square;
+}
+.options .left-options,
+.options .right-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: auto;
+  width: auto;
+  overflow: visible;
+}
+.question .options i {
+  color: #000;
+  font-size: 15px;
+  transition: transform 0.1s;
+  cursor: pointer;
+}
+.question .dislike-icon{
+  rotate: calc(180deg);
+}
+.question .options i:hover {
+  transform: scale(1.3);
+}

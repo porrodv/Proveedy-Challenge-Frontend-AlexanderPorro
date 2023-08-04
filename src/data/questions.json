@@ -1,0 +1,28 @@
+[
+  {
+    "question": "Wich country did Gandhi lead the successful campaign for independence from British rule?",
+    "options": {
+      "1": "South Africa",
+      "2": "India",
+      "3": "United Kingdom",
+      "4": "Australia"
+    }
+  },
+  {
+    "question": "Were was Gandhi born and raised?",
+    "options": {
+      "1": "South Africa",
+      "2": "India",
+      "3": "Australia",
+      "4": "United Kingdom"
+    }
+  },
+  {
+    "question": "What honorific is now used throughout the world to refer to Gandhi?",
+    "options": {
+      "1": "Enerable",
+      "2": "Great-ñsouled",
+      "3": "Mahatma"
+    }
+  }
+]

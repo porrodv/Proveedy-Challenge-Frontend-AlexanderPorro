@@ -10,7 +10,9 @@ La API parece rescatar datos en relación a los PDFs subidos y guardados pero es
 - Autor: Alexander Porro
 
 <div align="center">
+ 
   ![JavaScript Banner][img1]
+  
 </div>
 
 <!-- Images -->

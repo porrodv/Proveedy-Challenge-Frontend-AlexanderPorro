@@ -1,6 +1,6 @@
-import '../css/Question.css';
+import '../../css/Questionary.css';
 
-export function Question ({ question, options }) {
+export function Questionary ({ question, options }) {
   return (
     <>
       <div className='question'>

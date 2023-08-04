@@ -1,0 +1,33 @@
+.info-card{
+  background-color: var(--bg-lightgray);
+  width: 300px;
+  max-height: 400px;
+  overflow: hidden;
+  padding: 1rem;
+}
+.info-card * {
+  font-size: 16px;
+  font-weight: 500;
+}
+.info-card main {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  gap: 5px;
+  font-size: 17x;
+}
+.info-card main i {
+  background-color: rgb(216, 223, 249);
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 52px !important;
+  width: 90px;
+  height: 90px;
+  display: grid;
+  place-content: center;
+}
+.info-card h5 {
+  margin-bottom: 0;
+  line-height: 1.7rem;
+  color: var(--txt-gray);
+}

@@ -12,6 +12,10 @@
 .navbar * {
   font-size: 13px;
 }
+.navbar a{
+  text-decoration: none;
+  color: #000;
+}
 
 .left .navbar-nav {
   display: flex;
@@ -24,7 +28,6 @@
   padding: 15px;
 }
 .nav-item a {
-  text-decoration: none;
   color: #fff;
   opacity: 0.8;
 }
@@ -52,7 +55,6 @@
 }
 .right #upgrade {
   background-color: rgb(250, 204, 21);
-  color: #000;
 }
 .right #create {
   background-color: rgb(129, 140, 248);

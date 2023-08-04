@@ -3,7 +3,9 @@
 **Propuesta para el nuevo diseño construido en React.js**
 
 **Para ejecutar la demo en desarrollo solo se necesita descargar el proyecto, descomprimirlo y ejecutar lo siguiente por consola: **
+
 **- npm install**
+
 **- npm run dev**
 
 
